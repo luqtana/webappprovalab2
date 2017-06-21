@@ -19,6 +19,7 @@ namespace WebAppProvaLab2.Controllers
         public ActionResult Index()
         {
             return View(db.Contatos.ToList());
+
         }
 
         // GET: Contato/Details/5
